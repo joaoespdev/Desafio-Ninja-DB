@@ -12,13 +12,12 @@ public class Personagem {
     private List<String> jutsus;
     private int chakra;
 
-    //@Autowired
     public Personagem(String nome, int idade, String aldeia, int chakra) {
         this.nome = nome;
         this.idade = idade;
         this.aldeia = aldeia;
         this.chakra = chakra;
-        this.jutsus = new ArrayList<>();//jutsus; Usei autowired pra não ter que instanciar
+        this.jutsus = new ArrayList<>();
     }
 
     public void adicionarJutsu(String jutsu) {
@@ -31,7 +30,7 @@ public class Personagem {
     }
 
     public String exibirInformacoes() {
-        return "Nome ninja: " + nome + "\n" +
+        return "Nome Ninja: " + nome + "\n" +
                 "Idade: " + idade + "\n" +
                 "Aldeia: " + aldeia + "\n" +
                 "Quantidade de Chakra: " + chakra + "\n" +

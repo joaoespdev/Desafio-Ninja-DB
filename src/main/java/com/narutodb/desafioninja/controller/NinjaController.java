@@ -27,7 +27,7 @@ public class NinjaController {
         jiraiya.adicionarJutsu("Genjutsu: Liberar");
         jiraiya.adicionarJutsu("Substituição");
         jiraiya.adicionarJutsu("Jutsu de invocação");
-        jiraiya.adicionarJutsu("Confronto do Canto de Sapo"); //genjutsu
+        jiraiya.adicionarJutsu("Confronto do Canto de Sapo");
         jiraiya.adicionarJutsu("Modo Sábio");
         jiraiya.adicionarJutsu("Agulhas Jizou");
         jiraiya.adicionarJutsu("Arte Eremita: Goemon");
