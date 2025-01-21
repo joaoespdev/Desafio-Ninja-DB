@@ -68,7 +68,7 @@ Os testes na classe `PersonagemTest` validam o comportamento da entidade `Person
 - Teste de adição de jutsu: `["Rasengan"]`
 - Teste de aumento de chakra: `Chakra antes = 1000, Chakra depois = 1500`
 - Teste de exibição de informações: `Nome Ninja: Naruto Uzumaki Idade: 17 Aldeia: Konoha Quantidade de Chakra: 1000 Jutsus: [Rasengan, Kage Bunshin]`
-
+<br></br>
 
 ### 🍙 `NinjaControllerTest`
 Os testes na classe `NinjaControllerTest` verificam a formatação correta das informações retornadas pelo controlador `NinjaController`.  
@@ -86,6 +86,7 @@ Este controlador exibe detalhes de ninjas, como nomes, jutsus e vilas.
 - **Mockito**: Para injeção de dependências simuladas, facilitando o teste de controladores e serviços.
 
 Esses testes aumentam a confiança no código e reduzem o risco de bugs em futuras alterações. 💪
+<br></br>
 
 ---
 
