@@ -22,6 +22,10 @@ public class Personagem {
     private List<String> jutsus;
     private int chakra;
 
+    public Personagem() {
+        this.jutsus = new ArrayList<>();
+    }
+
     public Personagem(String nome, int idade, String aldeia, int chakra) {
         this.nome = nome;
         this.idade = idade;
